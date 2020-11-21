@@ -6,7 +6,7 @@
 
 BaseDao是基于appframe的dao层基类，对appframe底层进行了封装，面向对象设计，将原appframe提供的api进行的精简，设计了一套统一的API，并支持更丰富的sql功能。核心功能是省去了dao层的基础代码
 
-使用BaseDao，dao层的代码相比原来能省50%（吧）。
+使用BaseDao，dao层的代码相比原来能省80%（吧:P）。
 
 ## 前言
 
