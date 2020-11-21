@@ -62,7 +62,7 @@ dao.update(simcards);
 
 ## API
 
-目前BaseDao中共定义了16个方法（不包括重载方法），下列列出的是最常用的几个方法，完整的方法列表请看源码（文章末尾有源码路径）： 
+目前BaseDao中共定义了16个不同作用的方法（包括重载方法共34个），下列列出的是最常用的几个方法，完整的方法列表请看源码（文章末尾有源码路径）： 
 
 ```java
 T[] getBy(DataContainer cond, Pagination page);//根据条件查询(支持分页)
